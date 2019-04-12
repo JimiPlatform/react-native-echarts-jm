@@ -1,0 +1,31 @@
+{
+  "name": "react-native-echarts-jm",
+  "version": "1.0.0",
+  "description": "echarts for react-native",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somonus/react-native-echarts-jm.git"
+  },
+  "keywords": [
+    "react-native",
+    "echarts",
+    "chart",
+    "charts"
+  ],
+  "author": "clannad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/somonus/react-native-echarts-jm/issues"
+  },
+  "homepage": "https://github.com/somonus/react-native-echarts-jm#readme",
+  "dependencies": {
+    "echarts": "3.2.3"
+  }
+}
