@@ -13,12 +13,7 @@ export default function renderChart(props) {
     for ( const key in selectObject){
       strOpens = strOpens.replace(key,selectObject[key])
     }
-  }
-  // if (selectXName) {
-  //   strOpens = strOpens.replace("!@#$%^&%#",selectXName)
-  // }
-
-  
+  }  
   return `
     document.getElementById('main').style.height = "${height}";
     document.getElementById('main').style.width = "${width}";
